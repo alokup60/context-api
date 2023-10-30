@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sub {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+h1 {
+  font-size: 4rem;
+  color: purple;
+}
+button {
+  padding: 0.6rem 1.8rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: purple;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+  transition: all 0.3s ease-in;
+}
